@@ -11,7 +11,3 @@ function removeletters(inputstring) {
     }
     return (outputnumber.join(""))
 }
-
-console.log(removeletters("11aaa21Cr51ge3icanseeclearlynowtherainhasgone900142069ligma55"))
-// rough description of what happens: each index of the input number is checked through a for loop. if it is a number, it is added to an array
-//at the end of the for loop, the array it turned into a string and returned to caller
