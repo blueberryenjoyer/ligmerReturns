@@ -11,6 +11,3 @@ function removeletters(inputstring) {
     }
     return (Number(outputnumber.join("")))
 }
-
-console.log(removeletters("ajwonsfd2314"))
-console.log(typeof removeletters("ajwonsfd2314"))
