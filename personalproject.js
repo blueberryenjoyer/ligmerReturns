@@ -9,5 +9,8 @@ function removeletters(inputstring) {
             outputnumber.push(currentCharacter)
         }
     }
-    return (outputnumber.join(""))
+    return (Number(outputnumber.join("")))
 }
+
+console.log(removeletters("ajwonsfd2314"))
+console.log(typeof removeletters("ajwonsfd2314"))
