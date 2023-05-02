@@ -14,7 +14,7 @@ function myMnemonic(stringA, stringB, stringC, stringD) {
 }
 console.log(myMnemonic(
     "gyakuten saiban",
-    "i hate the antichrist",
+    "                                      ",
     "the industrial revoltuion and its comesequcens ahve beena  dsiastretr for the human arace",
-    "birds are NOT REAL"
+    "birds are GOVENRMTNENT DRONES SENT TO SPY ON YOU"
 ))
