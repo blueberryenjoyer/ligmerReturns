@@ -10,11 +10,12 @@
 // Write your code below:
 
 function myMnemonic(stringA, stringB, stringC, stringD) {
+    if (typeof stringA !== 'string' || typeof stringB !== 'string' || typeof stringC !== 'string' || typeof stringD !== 'string') { return "strings please" }
     return stringA.length + stringB.length + stringC.length + stringD.length
 }
 console.log(myMnemonic(
     "gyakuten saiban",
     "                                      ",
     "the industrial revoltuion and its comesequcens ahve beena  dsiastretr for the human arace",
-    "birds are GOVENRMTNENT DRONES SENT TO SPY ON YOU"
+    "i know it says i should expect users to input strings, but i dont trust anybody"
 ))
