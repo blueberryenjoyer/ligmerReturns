@@ -8,3 +8,8 @@ p {
     text-align: left;
     font-size: 40px;
 }
+
+div {
+    display: flex;
+    justify-content: center;
+}
