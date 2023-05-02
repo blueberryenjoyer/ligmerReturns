@@ -9,7 +9,7 @@
 // Write your code below:
 
 function defaultGreet(firstName, lastName) {
-    if (lastName === undefined) {
+    if (lastName === undefined || lastName === "") {
         let lastName = "Doe"
         return firstName.concat(lastName)
     }
