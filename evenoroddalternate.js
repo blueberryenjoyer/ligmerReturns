@@ -10,9 +10,12 @@
 function evenOrOdd(numberValue) {
     let newint = numberValue / 2
     let newerint = Math.floor(newint)
-    if (newerint == newerint) { //how on earth does this check for even/odd?
-        console.log(newerint + "even")
+    if (newerint === newint) {
+        console.log("even")
+    }
+    else {
+        console.log("odd")
     }
 }
 
-evenOrOdd(5)
+evenOrOdd(-1)
