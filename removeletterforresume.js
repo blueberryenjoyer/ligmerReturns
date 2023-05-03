@@ -24,3 +24,24 @@ function removenumbers2() {
     }
     document.getElementById("ligma").innerHTML = outputnumber.join("")
 }
+
+
+let babyisdead = false
+
+function paytaxestothedevil() {
+    if (babyisdead === false) {
+        let mission = document.getElementById('yodatext').value
+        let taxedincome = mission * 0.8
+        let surplus = taxedincome - 500
+        document.getElementById("yoda").innerHTML = surplus
+    }
+    else {
+        let mission = document.getElementById('yodatext').value
+        let taxedincome = mission
+        let surplus = taxedincome - 300
+        document.getElementById("yoda").innerHTML = surplus
+    }
+}
+function killyoda() {
+    babyisdead = true
+}
