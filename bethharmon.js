@@ -6,7 +6,7 @@ function titleRanking(rating) {
         return "Intermediate"
     }
     else if (rating < 2201) {
-        return "Intermediate"
+        return "Advanced"
     }
     else if (rating === 2852) {
         return "Magnus F*cking Carlsen"
