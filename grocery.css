@@ -17,3 +17,10 @@ h2 {
     background-color: rgb(200, 200, 200);
     width: 800px;
 }
+
+ul {
+    width: 200px;
+    margin: 1%;
+    border: 2px solid gold;
+    background-color: aqua;
+}
