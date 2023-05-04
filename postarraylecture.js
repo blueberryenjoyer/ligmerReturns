@@ -40,3 +40,16 @@ function brok(arr) {
 }
 
 console.log(brok([0, 1, 2, 3]))
+
+// Correct Length? 
+// - Write a function 
+// - it takes two parameters, an array and a number
+// - returns true if the  length of the array matches the provided number and false if it does not. 
+
+
+function wack(arr, int) {
+    if (arr.length === int) { return true }
+    else { return false }
+}
+
+console.log(wack([2, 1, 3, 1, 1, 2], 6))
