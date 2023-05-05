@@ -16,3 +16,5 @@ function snap(inputArray) {
 }
 
 console.log(snap(preSnap))
+//and below is the same script but extremely condensed
+console.log(preSnap.slice(preSnap.length / 2))
