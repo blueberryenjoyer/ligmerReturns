@@ -9,7 +9,9 @@ p {
     font-size: 40px;
 }
 
-div {
+.dagoth {
     display: flex;
     justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
