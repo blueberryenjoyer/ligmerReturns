@@ -20,11 +20,10 @@ function evenOrOddSmaller(numberValue) { //old function
 function correctOdds(input) {
     if (input == "please") {
         let output = []
-        for (let solution = 0; solution <= 100;) {
+        for (let solution = 0; solution <= 100; solution++) {
             if (evenOrOddSmaller(solution) === true) {
                 output.push(solution)
             }
-            solution++
         }
         return output
     }
