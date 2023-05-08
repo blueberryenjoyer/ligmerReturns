@@ -11,4 +11,13 @@ function brotherPleaseShareWithMeSomeLoops(nubmenr) {
     }
 }
 
-brotherPleaseShareWithMeSomeLoops(20)
+//brotherPleaseShareWithMeSomeLoops(20)
+
+function brotherWhyDoesNotTheWorldTurn(solution) {
+    while (solution < 100) {
+        solution++
+    }
+    return solution
+}
+
+console.log(brotherWhyDoesNotTheWorldTurn(1))
