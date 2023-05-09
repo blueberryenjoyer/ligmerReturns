@@ -12,8 +12,8 @@ Hint: Consider what type of JavaScript code will allow you to do something over 
 
 function buildFenceCommand(numOfFencePosts, fencePostMaterial) {
 
-    for (let index = 1; index <= numOfFencePosts; index++) {
-        console.log(`JARVIS is now building ${fencePostMaterial} fence post number ${index}`)
+    for (let i = 1; i <= numOfFencePosts; i++) {
+        console.log(`JARVIS is now building ${fencePostMaterial} fence post number ${i}`)
     }
 
 }
