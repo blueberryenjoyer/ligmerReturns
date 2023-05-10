@@ -35,6 +35,10 @@ const torkoal = {
         this.level++
         console.log(this.level)
     }, //this feels repetitive. maybe thats what typescript is for.
+    defend: function (attacker) {
+        this.hp -= ((2 * attacker.level / 5 + 2) * 80 * (attacker.attack / this.defense) / 50) + 2
+        console.log(this.hp)
+    }, //i made a simplified version of the actual pokemon damage formula
 }
 
 const lilligant = {
@@ -69,11 +73,15 @@ const lilligant = {
         this.level++
         console.log(this.level)
     },
-
+    defend: function (attacker) {
+        this.hp -= ((2 * attacker.level / 5 + 2) * 80 * (attacker.attack / this.defense) / 50) + 2
+        console.log(this.hp)
+    },
 }
 
 
-lilligant.levelUp()
+lilligant.defend(torkoal)
+
 
 // Problem 2:
 // create a function that will console.log the sentence: 
@@ -85,3 +93,14 @@ lilligant.levelUp()
 // create a function that will increase the age of our pokemon by 1 year: 
 // then add the function to your object as a method
 // then invoke the function so that you increase the age of your pokemon and then console.log the age (after you have invoked the function)
+
+// Problem 4:
+// It is time for our pokemon to start dueling, but first they need health and defense stats
+// add a health property to our pokemon and set it equal to 50
+// add a defense property to our pokemon and set it equal to 20
+// next, create a function called 'defend' that will take a single parameter, which is a number. 
+// the function will compare the parameter to the defense property of our pokemon.  If the parameter is higher than, or equal to our defense then we will take damage. 
+//Subtract from our health stat the difference between the parameter and our defense stat. (for example if the parameter was 30, we would subtract 10 from our health points. )
+// if the parameter was lower than our defense, console.log the following sentence:  'The attack was successfully avoided!'
+// then add the function to your object as a method
+// then invoke the function, passing in the number 10 and then console.log the health property (after you have invoked the function)
