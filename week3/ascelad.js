@@ -45,4 +45,4 @@ Once you finish, you should test your function twice, once using dot notation, a
 */
 
 console.log(ascelad.sayCatchphrase())
-console.log(ascelad['sayCatchphrase']) //i cannot get this to work
+console.log(ascelad['sayCatchphrase']()) //i got this to work
