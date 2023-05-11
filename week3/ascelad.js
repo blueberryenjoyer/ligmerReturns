@@ -17,7 +17,10 @@ const ascelad = {
     name: 'ascelad',
     age: 50, //im roughly guessing here. could be 40 or 60
     occupations: ['war', 'raid things', 'crimes against humanity', 'make fun of the french language'],
-    isHero: false
+    isHero: false,
+    sayCatchphrase: function () {
+        return "danish people are barbarians"
+    }
 }
 
 //console.log(Object.entries(ascelad))
@@ -30,3 +33,15 @@ console.log(ascelad['name'])
 console.log(ascelad['age'])
 console.log(ascelad['occupations'])
 console.log(ascelad['isHero'])
+
+/*
+#3:
+Prompt: Using the tv show/movie object you made in the previous problem, add a new key-value pair to each of your objects. That key-value pair should have a key called
+"sayCatchphrase". The value of that new key should be a function that, when invoked, outputs a string that matches that character's defining catchphrase. 
+
+If the character you chose doesn't really have a catchphrase, just have the function return something that your character might say. 
+
+Once you finish, you should test your function twice, once using dot notation, and again using bracket notation.  
+*/
+
+console.log(ascelad.sayCatchphrase())
