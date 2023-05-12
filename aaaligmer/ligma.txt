@@ -1,0 +1,6 @@
+hey nerds, this is the unofficial readme
+basically the folders are like this
+/website is redundant, aaaligmer is for personal random stuff
+every other folder is practice problems sorted in one way or another
+sometimes i merge js functions together for removeletterforresume
+im just leaving that name, whatever
