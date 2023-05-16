@@ -47,3 +47,32 @@ function fizzBuzz(maxNum) {
 } //i made it like this to avoid filling up my terminal with 100 lines
 
 //console.log(fizzBuzz(100))
+
+function fizzBuzz2(maxNum) {
+    for (let i = 0; i < maxNum; i++) {
+        if (i % 3 === 0) { console.log('fizz') }
+        if (i % 5 === 0) { console.log('buzz'); continue }
+        else { console.log(i) }
+    }
+}
+
+//fizzBuzz2(100) //this is another way of doing it. its not perfect but a little more compact
+
+function fizzBuzz3() {
+    console.log("1 2 fizz 4 buzz fizz 7 8 fizz buzz 11 fizz 13 14 fizzbuzz")
+}
+
+//fizzBuzz3() //lmao
+
+function fizzBuzz4(maxNum) {
+    let bigAssList = []
+    for (let i = 1; i < maxNum; i++) {
+        if (i % 3 === 0 && i % 5 === 0) { bigAssList.push('fizzbuzz') }
+        else if (i % 3 === 0) { bigAssList.push('fizz') }
+        else if (i % 5 === 0) { bigAssList.push('buzz') }
+        else { bigAssList.push(i) }
+    }
+    return bigAssList.toString()
+}
+
+//console.log(fizzBuzz4(100)) //this looks really nice too. i think its the best version so far.
