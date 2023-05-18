@@ -1,4 +1,4 @@
-function stupidLength(arr) {
+const stupidLength = (arr) => {
     for (i = 0; i < arr.length; i++) {
         arr[i] = "AAAAA"
     }
