@@ -23,7 +23,21 @@
 //splice changes the original array
 //slice does not
 //thats fucked up because it means you can fuck up another array while just setting up a new one
-let aaa = [1, 2, 3]
-let bbb = [1, 2, 3]
-let arr = [...aaa, ...bbb]
-console.log(arr)
+// let aaa = [1, 2, 3]
+// let bbb = [1, 2, 3]
+// let arr = [...aaa, ...bbb]
+// console.log(arr)
+
+obbj = {
+    key1: 'yoho',
+    key2: 0
+}
+
+if (!obbj.key2) {
+    console.log("!0 is truthy") //runs
+}
+if (obbj.key2 === false) {
+    console.log("0 is false") //doesnt run
+}
+
+//i was not wrong. these are not the same
