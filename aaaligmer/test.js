@@ -28,16 +28,19 @@
 // let arr = [...aaa, ...bbb]
 // console.log(arr)
 
-obbj = {
-    key1: 'yoho',
-    key2: 0
-}
+// obbj = {
+//     key1: 'yoho',
+//     key2: 0
+// }
 
-if (!obbj.key2) {
-    console.log("!0 is truthy") //runs
-}
-if (obbj.key2 === false) {
-    console.log("0 is false") //doesnt run
-}
+// if (!obbj.key2) {
+//     console.log("!0 is truthy") //runs
+// }
+// if (obbj.key2 === false) {
+//     console.log("0 is false") //doesnt run
+// }
 
 //i was not wrong. these are not the same
+
+//console.log(require("./lmaomodule")())
+//this works
