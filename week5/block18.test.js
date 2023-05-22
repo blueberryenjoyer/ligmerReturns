@@ -88,4 +88,4 @@ test('no arguments, doesnt work', () => {
     expect(checkout()).toBe("pls enable cookie or something");
 });
 
-//im proud of this
+//im proud of this even though i didnt do any interactivity with the checkout
